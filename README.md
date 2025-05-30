@@ -1,6 +1,6 @@
 # dotet run app.cs Demo
 
-**dotnet run Demo** demonstrates the use of C# scripts and command-line interaction made possible by the introduction of [dotnet run app.cs](https://devblogs.microsoft.com/dotnet/announcing-dotnet-run-app/). This repository serves as an educational and reference resource for running `.cs` files directly from the command line—no explicit `Main` method or project file required.
+**dotnet run app.cs Demo** demonstrates the use of C# scripts and command-line interaction made possible by the introduction of [dotnet run app.cs](https://devblogs.microsoft.com/dotnet/announcing-dotnet-run-app/). This repository serves as an educational and reference resource for running `.cs` files directly from the command line—no explicit `Main` method or project file required.
 
 > **Note:** You must be running [.NET 10 Preview 4](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) or later to use this feature.
 
