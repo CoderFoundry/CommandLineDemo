@@ -1,6 +1,6 @@
 # CommandLineDemo
 
-**CommandLineDemo** demonstrates the use of C# scripts and command-line interaction made possible by the introduction of [top-level C# scripting in .NET 10 Preview 4](https://devblogs.microsoft.com/dotnet/announcing-dotnet-10-preview-4/). This repository serves as an educational and reference resource for running `.cs` files directly from the command line—no explicit `Main` method or project file required.
+**CommandLineDemo** demonstrates the use of C# scripts and command-line interaction made possible by the introduction of [dotnet run app.cs](https://devblogs.microsoft.com/dotnet/announcing-dotnet-run-app/). This repository serves as an educational and reference resource for running `.cs` files directly from the command line—no explicit `Main` method or project file required.
 
 > **Note:** You must be running [.NET 10 Preview 4](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) or later to use this feature.
 
@@ -17,7 +17,7 @@ Watch a complete walkthrough of CommandLineDemo on YouTube:
 
 ## Features
 
-- **Top-Level C# Script Execution:** Run `.cs` files as scripts directly from the command line, leveraging the new C# 13 scripting features.
+- **dotnet run app.cs:** Run `.cs` files as scripts directly from the command line, leveraging the new C# 13 scripting features.
 - **Command-Line Demos:** Sample files (like `hello.cs`, `CodingChallenge.cs`) demonstrate how to read input, work with mock data, and output results—all as scripts.
 - **Mock Data & JSON Processing:** Includes a sample `people.json` and script examples for basic file/data handling.
 - **No Project File Required:** Scripts run standalone, showcasing the new simplified development workflow.
