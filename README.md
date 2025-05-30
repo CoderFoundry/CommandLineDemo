@@ -17,9 +17,12 @@ Watch a complete walkthrough of CommandLineDemo on YouTube:
 
 ## Features
 
-- **dotnet run app.cs:** Run `.cs` files as scripts directly from the command line, leveraging the new C# 13 scripting features.
-- **Command-Line Demos:** Sample files (like `hello.cs`, `CodingChallenge.cs`) demonstrate how to read input, work with mock data, and output results—all as scripts.
-- **Mock Data & JSON Processing:** Includes a sample `people.json` and script examples for basic file/data handling.
+- **dotnet run app.cs:** Run `.cs` files as scripts directly from the command line, leveraging C#.
+- **Command-Line Demos:** Sample files (`hello.cs`, `CodingChallenge.cs`) demonstrates how C# handles string manipulation (reversing a string, case conversion), input handling (args.FirstOrDefault()), LINQ usage (Reverse()), array and string  conversion, conditional logic, and console output—all common features for basic C# scripting and utility programs.
+ 
+- **Mock Data & JSON Processing:** MockData.cs  C# script uses the # :package Bogus directive to download the Bogus library at execution, generates a specified number of fake people with random names, emails, and addresses, and saves them as a JSON file named people.json.
+
+- **Mock Server & JSON Processing:** MockServer.cs  This C# script sets up a minimal web API using ASP.NET Core, serves OpenAPI docs, and provides a /people endpoint that returns fake people data from people.json with optional search filtering by full name.
 - **No Project File Required:** Scripts run standalone, showcasing the new simplified development workflow.
 
 ---
