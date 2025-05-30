@@ -41,5 +41,5 @@ Watch a complete walkthrough of dotnet run app.cs Demo on YouTube:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/bdavisjr/CommandLineDemo.git
-cd CommandLineDemo
+git clone [https://github.com/bdavisjr/CommandLineDemo.git](https://github.com/CoderFoundry/dotnetRunDemo.git)
+cd dotnetRunDemo
