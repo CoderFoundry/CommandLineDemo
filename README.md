@@ -38,8 +38,29 @@ Watch a complete walkthrough of dotnet run app.cs Demo on YouTube:
 
 ## Getting Started
 
-### 1. Clone the Repository
+1. **Clone the Repository**
+    - Open a terminal and run:
+      ```bash
+      git clone https://github.com/CoderFoundry/dotnetRunDemo.git
+      cd dotnetRunDemo
+      ```
 
-```bash
-git clone https://github.com/CoderFoundry/dotnetRunDemo.git
-cd dotnetRunDemo
+2. **Recommended: Install VS Code & C# Dev Kit Extension**
+    - [Download Visual Studio Code](https://code.visualstudio.com/)
+    - Open the repo folder in VS Code.
+    - Install the **C# Dev Kit** extension for best language support and IntelliSense:  
+      [C# Dev Kit in the VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
+
+3. **Run a Script**
+    - To run a demo script (for example, `hello.cs`), use:
+      ```bash
+      dotnet run hello.cs
+      ```
+    - To run any other script in the repo (for example):
+      ```bash
+      dotnet run CodingChallenge.cs
+      dotnet run MockServer.cs
+      ```
+    - > **Note:** You do **not** need a project file or solution file to run these scripts.  
+      Just pass the script filename as an argument to `dotnet run`.
+
