@@ -6,10 +6,10 @@
 
 ---
 
-## 📺 Demo Video
+## 📺 Video Walkthrough
 
-Watch a complete walkthrough of dotnet run app.cs Demo on YouTube:  
-[![Watch on YouTube](https://img.shields.io/badge/Watch-YouTube-red?logo=youtube)](https://www.youtube.com/watch?v=RqdboCFIqp0)
+Watch a complete walkthrough of "dotnet run app.cs" on YouTube:  
+[![Watch the video](https://img.youtube.com/vi/RqdboCFIqp0/hqdefault.jpg)](https://www.youtube.com/watch?v=RqdboCFIqp0)
 
 
 
